@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+}
+body {
+font: 20px  Sans-Serif;
+background: #eee;
+}
+.jumbotron{
+  background:rgb(219, 217, 217);
+}
+.container{
+  max-width: 100%;
+  margin: 0; 
+}
+
+#board {
+list-style: none;
+}
+#board .fn{
+  background: grey;
+}
+#board li {
+float: left;
+margin: 0 2px 2px 0;
+width: 80px;
+height: 80px;
+line-height: 70px;
+color: white;
+text-align: center;
+background: #000;
+border: 1px solid #f9f9f9;
+border-radius: 7px;
+-o-border-radius:5p;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#board .tab, #board .delete {
+width: 250px;
+}
+#board .capslock {
+width: 160px;
+}
+#board .return {
+width: 250px;
+}
+#board .left-shift {
+width: 190px;
+}
+#board .right-shift {
+width: 132px;
+}
+.lastitem {
+margin-right: 0;
+}
+#board .space {
+width: 38.3%;
+}
+ul{
+width: 100%;
+}
+.flex-container {
+display: flex;
+flex-wrap: nowrap;
+width: 70%;
+margin: auto;
+}
+.display-4
+{
+margin: auto;
+}
+.flex-container > div {
+background-color: #f1f1f1;
+width: 100%;
+margin: 10px;
+line-height: 75px;
+font-size: 30px;
+}
+#board .spc{
+opacity: 0;
+}

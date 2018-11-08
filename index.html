@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/keytest.js"></script>
+    <script src="/assets/js/jquery.js"></script>
+    <title>Kyebaord Tester</title>
+</head>
+
+<body>
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 class="display-4">Keyboard Tester</h1>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="flex-container">
+            <ul id="board">
+                <li id="27" class="symbol">Esc</li>
+                <li id="112" class="symbol">F1</li>
+                <li id="113" class="symbol">F2</li>
+                <li id="114" class="symbol">F3</li>
+                <li class="letter spc"></li>
+                <li id="115" class="symbol">F4</li>
+                <li id="116" class="symbol">F5</li>
+                <li id="117" class="symbol">F6</li>
+                <li id="118" class="symbol">F7</li>
+                <li id="119" class="symbol">F8</li>
+                <li id="120" class="symbol">F9</li>
+                <li id="121" class="symbol">F10</li>
+                <li id="122" class="symbol">F11</li>
+                <li id="123" class="symbol">F12</li>
+                <li id="44" class="symbol">PRTSC</li>
+                <li id="46" class="symbol" style="width:83px">DEL</li>
+                <li id="36" class="symbol">HOME</li>
+
+            </ul>
+        </div>
+        <div class="flex-container">
+            <ul id="board">
+                <li id="192" class="symbol">~</li>
+                <li id="49" class="symbol">1</li>
+                <li id="50" class="symbol">0</li>
+                <li id="51" class="symbol">3</li>
+                <li id="52" class="symbol">4</li>
+                <li id="53" class="symbol">5</li>
+                <li id="54" class="symbol">6</li>
+                <li id="55" class="symbol">7</li>
+                <li id="56" class="symbol">8</li>
+                <li id="57" class="symbol">9</li>
+                <li id="48" class="symbol">0</li>
+                <li id="189" class="symbol">-</li>
+                <li id="187" class="symbol">=</li>
+                <li id="8" class="delete lastitem">BACKSPACE</li>
+                <li id="35" class="symbol">END</li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <ul id="board">
+                <li id="9" class="tab">TAB</li>
+                <li id="81" class="letter">Q</li>
+                <li id="87" class="letter">W</li>
+                <li id="69" class="letter">E</li>
+                <li id="82" class="letter">R</li>
+                <li id="84" class="letter">T</li>
+                <li id="89" class="letter">Y</li>
+                <li id="85" class="letter">U</li>
+                <li id="73" class="letter">I</li>
+                <li id="79" class="letter">O</li>
+                <li id="80" class="letter">P</li>
+                <li id="219" class="symbol">[</li>
+                <li id="221" class="symbol">]</li>
+                <li id="220" class="symbol lastitem">\</li>
+                <li id="33" class="symbol">pg up</li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <ul id="board">
+                <li id="20" class="capslock">caps lock</li>
+                <li id="65" class="letter">A</li>
+                <li id="83" class="letter">S</li>
+                <li id="68" class="letter">D</li>
+                <li id="70" class="letter">F</li>
+                <li id="71" class="letter">G</li>
+                <li id="72" class="letter">H</li>
+                <li id="74" class="letter">J</li>
+                <li id="75" class="letter">K</li>
+                <li id="76" class="letter">L</li>
+                <li id="186" class="symbol">;</li>
+                <li id="222" class="symbol">'</li>
+                <li id="13" class="return lastitem">Enter</li>
+                <li id="34" class="symbol">pg dn</li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <ul id="board">
+                <li id="16" class="left-shift">shift</li>
+                <li id="90" class="letter">Z</li>
+                <li id="88" class="letter">X</li>
+                <li id="67" class="letter">C</li>
+                <li id="86" class="letter">V</li>
+                <li id="66" class="letter">B</li>
+                <li id="78" class="letter">N</li>
+                <li id="77" class="letter">M</li>
+                <li id="188" class="symbol">,</li>
+                <li id="190" class="symbol">.</li>
+                <li id="191" class="symbol">/</li>
+                <li id="16" class="right-shift lastitem">SHIFT</li>
+                <li id="123" class="letter spc"></li>
+                <li id="38" class="letter">↑</li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <ul id="board">
+                <li id="" class="fn">fn</li>
+                <li id="17" class="leftCtrl">CTRL</li>
+                <li id="18" class="leftAlt">Alt</li>
+                <li id="91" class="letter">Win</li>
+                <li id="32" class="space">&nbsp;</li>
+                <li id="93" class="letter">Win</li>
+                <li id="18" class="rightAlt">Alt</li>
+                <li id="17" class="rightCtrl">CTRL</li>
+                <li id="37" class="letter">←</li>
+                <li id="40" class="letter">↓</li>
+                <li id="39" class="letter">→</li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
